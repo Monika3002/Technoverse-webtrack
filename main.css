@@ -22,9 +22,7 @@ body {
 }
 .site-logo {
   float: left;
-  width: min-content;
-  height: min-content;
-  padding: 0px 0px;
+  padding: 17px 0px;
 }
 .site-logo a {
   color: #fff;
