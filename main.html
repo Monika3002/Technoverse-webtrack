@@ -2,28 +2,44 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Responsive Navigation bar design usign html & css & javascript
+    </title>
+    <link href="main.css" rel="stylesheet" />
 
-    <title>AXIS in ONE</title>
-    <link rel="stylesheet" href="main.css" />
+    <!-- font awesome cdn -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.15.4/css/all.css"
+    />
+    <link rel="stylesheet" href="css/style.css" />
   </head>
   <body>
-    <div class="category-section">
-      <h2>Categories</h2>
-      <ul class="category-list">
-        <li class="category-item">
-          <a href="#">Financial Services</a>
-        </li>
-        <li class="category-item">
-          <a href="#">Cybersecurity</a>
-        </li>
-        <li class="category-item">
-          <a href="#">Construction & Interior Design</a>
-        </li>
-        <li class="category-item">
-          <a href="#">Legal Services</a>
-        </li>
-      </ul>
-    </div>
+    <header class="header-area">
+      <div class="header-container">
+        <div class="site-logo">
+          <a href="#">Coder<span>Rishad</span></a>
+        </div>
+        <div class="mobile-nav">
+          <i class="fas fa-bars"></i>
+        </div>
+        <div class="site-nav-menu">
+          <ul class="primary-menu">
+            <li><a href="main.html" class="active">Home</a></li>
+            <li><a href="main.html">About</a></li>
+            <li><a href="#">Works</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="login.html">Blog</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+      </div>
+    </header>
+
+    <section id="hero-section"></section>
+    <script src="main.js"></script>
+    <script type="text/javascript" src="app.js"></script>
   </body>
 </html>
