@@ -113,7 +113,7 @@ select:-webkit-autofill:focus {
   transition: 0.5s;
 }
 .submit-button:hover {
-  background: #1e7dfa;
+  background: #31279d;
 }
 .submit-button:active {
   background: #0b63da;
