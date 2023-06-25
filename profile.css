@@ -1,9 +1,13 @@
 .profile-container {
-  max-width: 500px;
   margin: 0 auto;
   padding: 20px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
 }
 
 .profile-info {
@@ -17,6 +21,7 @@
   height: 100px;
   overflow: hidden;
   border-radius: 50%;
+  border: 1px solid #f44770;
 }
 
 .profile-picture img {
