@@ -5,7 +5,7 @@ body {
 
 .profile-container {
   margin: auto;
-  margin-top: 35px;
+  margin-top: 2.5%;
   padding: 40px;
   border: 1px solid #ccc;
   position: relative;
@@ -52,7 +52,7 @@ body {
 }
 
 .services-used {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
   width: 50%;
   display: block;
   float: left;
@@ -97,4 +97,13 @@ body {
 .edit-profile:hover,
 .logout:hover {
   background-color: #31279d;
+}
+
+@media only screen and (max-width: 767px) {
+  profile-container {
+    margin-top: 2.5%;
+    max-width: 50px;
+    width: 100%;
+    height: inherit;
+  }
 }
