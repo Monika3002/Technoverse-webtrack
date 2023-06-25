@@ -1,14 +1,34 @@
+body {
+  background: #000718;
+  font-family: "Roboto", sans-serif;
+}
+
 .profile-container {
-  max-width: 500px;
-  margin: 0 auto;
-  padding: 20px;
+  margin: auto;
+  margin-top: 2.5%;
+  padding: 40px;
   border: 1px solid #ccc;
-  border-radius: 4px;
+  position: relative;
+  max-width: 700px;
+  width: 100%;
+  background: #ecf0f3;
+  border-radius: 30px;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto", sans-serif;
+  font-size: 20px;
+}
+.profile-container header {
+  font-size: 2.5rem;
+  color: #333;
+  font-style: bold;
+  font-weight: 600;
+  text-align: center;
 }
 
 .profile-info {
   display: flex;
   align-items: center;
+  padding: 0 10px;
   margin-bottom: 20px;
 }
 
@@ -17,6 +37,7 @@
   height: 100px;
   overflow: hidden;
   border-radius: 50%;
+  border: 1px solid #f44770;
 }
 
 .profile-picture img {
@@ -27,19 +48,33 @@
 
 .profile-details {
   margin-left: 20px;
+
 }
 
 .services-used {
-  margin-bottom: 20px;
+  margin-bottom: 50px;
+  width: 50%;
+  display: block;
+  float: left;
 }
 
 .service-list {
   list-style: none;
-  padding: 0;
+  padding: 0 15px ;
 }
 
 .service-list li {
+  margin-bottom: 20px;
+}
+
+.service-charge{
+  margin-bottom: 20px;
+  width: 50%;
+  float: right;
+}
+.service-charge p {
   margin-bottom: 5px;
+  padding: 0 10px ;
 }
 
 .profile-actions {
@@ -51,13 +86,24 @@
   display: inline-block;
   margin-right: 10px;
   padding: 10px 20px;
-  background-color: #f2f2f2;
-  color: #333;
+  background-color: #f44770;
+  color: #ffffff;
   text-decoration: none;
-  border-radius: 4px;
+  border-radius: 30px;
+  box-shadow: 3px 3px 8px #b1b1b1, -3px -3px 8px #ffffff;
+
 }
 
 .edit-profile:hover,
 .logout:hover {
-  background-color: #ccc;
+  background-color: #31279d;
+}
+
+@media only screen and (max-width: 767px) {
+  profile-container {
+    margin-top: 2.5%;
+    max-width: 50px;
+    width: 100%;
+    height: inherit;
+  }
 }
